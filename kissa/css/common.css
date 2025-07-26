@@ -1,1 +1,22 @@
 @charset "utf-8";
+
+<!-- 既定スタイル解除 -->
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} 
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    color: inherit; <!-- 親要素のスタイルを継承 -->
+    text-decoration: none;
+} 
+
+<!-- 既定スタイル解除 ここまで -->
