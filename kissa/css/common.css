@@ -28,3 +28,16 @@ a:visited {
 } 
 
 /* 既定スタイル解除 ここまで */
+
+/* ベーススタイル */
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-color: #000000;
+    line-height: 1;
+    background-color: #ffffff;
+}
+
+img{
+    max-width: 100%;
+}
