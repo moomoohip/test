@@ -30,7 +30,7 @@ a:visited {
 /* 既定スタイル解除 ここまで */
 
 /* ベーススタイル */
-body{
+body {
     font-family: sans-serif;
     font-size: 16px;
     font-color: #000000;
@@ -38,6 +38,16 @@ body{
     background-color: #ffffff;
 }
 
-img{
+img {
     max-width: 100%;
 }
+/* ベーススタイル ここまで */
+
+/* ヘッダーのスタイル */
+.header-inner {
+    max-width: 1200px;
+    height: 110px;
+    margin-left: auto;
+    margin-rigjt: auto;
+}
+
