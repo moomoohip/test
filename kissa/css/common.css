@@ -49,5 +49,28 @@ img {
     height: 110px;
     margin-left: auto;
     margin-rigjt: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center; 
+}
+.toggle-menu-button {
+    display: none;
+}
+/* ヘッダーのスタイル ここまで */
+
+/* ロゴとナビゲーションのスタイル */
+.header-logo {
+    display: block; /* a要素はインライン要素（＝テキストの一部）として扱わられ、高さや幅の指定ができないため、displayプロパティでblockにする */
+    width: 170px;
 }
 
+.site-menu ul {
+    display: flex;
+}
+
+.site-menu li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
